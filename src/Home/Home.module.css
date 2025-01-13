@@ -1,0 +1,52 @@
+/* Home.module.css */
+
+/* Main container */
+.mainContainer {
+  background-color: #D1E0E0; /* Card-like background */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #303130; /* Enhanced shadow effect */
+  text-align: center;
+  width: 400px; /* Fixed width for consistent layout */
+  margin-top: 50%;
+}
+
+/* Body background and text color (Note: body styling is generally global, but for the module, we won't define this in the CSS module) */
+.container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F8F9FA; /* Base background color */
+  color: #34495E; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Stack buttons vertically */
+.buttonContainer {
+  display: flex;
+  flex-direction: column;  /* Stack buttons vertically */
+  gap: 15px; /* Space between the buttons */
+  width: 100%;
+}
+
+/* Button styles */
+.btn {
+  background-color: #2ECC71;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #066806; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge the button */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for a lift effect */
+  transition: all 0.3s ease; /* Smooth transition for background, scale, and shadow */
+}

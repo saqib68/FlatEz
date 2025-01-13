@@ -1,0 +1,159 @@
+.outerContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: black;
+    margin-top: 35rem;
+
+}
+
+.innerContainer {
+    height: 80vh;
+    width: 50vw;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 98%;
+}
+
+.chatInput {
+    flex: 1;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.sendButton {
+    height:2rem ;
+    width:8rem ;
+    margin-left: 0.5rem;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+@media (max-width: 600px) {
+    .innerContainer {
+        width: 60vw; /* Make the inner container slightly smaller */
+        padding: 1rem; /* Ensure padding is consistent */
+    }
+
+    .inputContainer {
+        width: 100%; /* Make the input container take the full width */
+        padding: 0.25rem; /* Reduce padding to fit in smaller screen */
+    }
+
+    .chatInput {
+        padding: 0.25rem 0.5rem; /* Adjust input field padding */
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    .sendButton {
+        width: 6rem; /* Adjust button width */
+        height: 1.8rem; /* Adjust button height */
+        font-size: 0.9rem; /* Smaller font size for button */
+    }
+}
+
+@media (max-width: 430px) {
+    .innerContainer {
+        width: 60vw; /* Make the inner container slightly smaller */
+        padding: 1rem; /* Ensure padding is consistent */
+    }
+
+    .inputContainer {
+        width: 100%; /* Make the input container take the full width */
+        padding: 0.25rem; /* Reduce padding to fit in smaller screen */
+    }
+
+    .chatInput {
+        padding: 0.25rem 0.3rem; /* Adjust input field padding */
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    .sendButton {
+        width: 2rem; /* Adjust button width */
+        height: 1.8rem; /* Adjust button height */
+        font-size: 0.5rem; /* Smaller font size for button */
+        display: flex;
+        justify-content: center;
+    }
+}
+.sendButton:hover {
+    background-color: #198245;
+}
+
+
+.chatArea {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f1f1f1; /* Slightly different color for chat area */
+    border-radius: 1rem;
+    
+}
+
+
+.LoggedInUser {
+    width: fit-content;
+    background-color: #8ee4b2;
+    margin-right: 2px;
+    margin-top: 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    font-size: 1rem;
+    word-wrap: break-word; /* Allow text to break and wrap */
+    white-space: normal;   /* Allow text to wrap to the next line */
+    max-width: 80%;        /* Optional: Limit max width to 80% of the container */
+    text-align: right;     /* Align text to the right */
+}
+
+.RemainingUsers {
+    width: fit-content;
+    height: auto;  /* Adjust height dynamically with content */
+    background-color: #8ee4b2;
+    margin-right: 2px;
+    margin-top: 2px;
+    text-align: left; /* Align text to the left */
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    position: relative;
+    margin-right: auto;
+    font-size: 1rem;
+    word-wrap: break-word; /* Allow text to break and wrap */
+    white-space: normal;   /* Allow text to wrap to the next line */
+    max-width: 80%;        /* Optional: Limit max width to 80% of the container */
+}
+

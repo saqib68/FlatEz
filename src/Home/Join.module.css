@@ -1,0 +1,72 @@
+/* Overlay Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box (Modal) Styles */
+.modalBox {
+  position: relative;
+  width: 400px;
+  padding: 20px;
+  background-color: #d1e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Close Button Styles */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #34495e;
+}
+
+.closeButton:hover {
+  color: red;
+}
+
+/* Input Group Styles */
+.inputGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Input Field Styles */
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/* Submit Button Styles */
+.submitButton {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+/* Submit Button Hover Effect */
+.submitButton:hover {
+  background-color: #066806;
+}

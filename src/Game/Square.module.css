@@ -1,0 +1,89 @@
+/* Apply the font family for the entire body */
+
+
+/* Style for headings */
+h1 {
+    font-size: 3rem; /* Larger size for headings */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Style for the Board */
+.Board {
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(65, 83, 155);
+    position: relative;
+    margin: 0 auto; /* Centers the board */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+    
+}
+
+/* Style for each Square */
+.Square {
+    width: 5rem;
+    height: 5rem;
+    background-color: aqua;
+    position: relative;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; /* Adjust text size */
+    font-weight: bold; /* Make the text inside squares bold */
+}
+
+/* Style for the button */
+button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1.5rem; /* Increase button text size */
+    font-weight: 500; /* Medium weight for the button */
+    cursor: pointer;
+    background-color: #007BFF; /* Button background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Style for turn text and other elements */
+div {
+    margin: 10px 0;
+    font-size: 1.5rem; /* Body text font size */
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.Title {
+    width: fit-content;
+    padding: 20px;
+    background-color: #7d3434;
+    font-size: 4rem;
+    text-align: center;  /* Center the text inside */
+    margin: 0 auto;  /* Center the .Title block itself */
+    border-radius: 5px;
+    margin-top: 40rem;
+   
+    
+}
+.gameLeaderboard
+{
+    width: fit-content;
+    padding: 20px;
+    background-color: #7d3434;
+    font-size: 2rem;
+    text-align: center;  /* Center the text inside */
+    margin: 0 auto;  /* Center the .Title block itself */
+    border-radius: 5px;
+
+}

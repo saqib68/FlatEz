@@ -1,0 +1,77 @@
+/* Base styling for the User Dashboard */
+.dashboard {
+  width: 40%;
+  max-width: 800px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #d1e0e0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 50rem;
+}
+
+/* Title styling */
+.dashboardTitle {
+  color: #34495e;
+  font-size: 30px; /* Increased from 28px */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* User details styling */
+.userDetails {
+  color: #34495e;
+  font-size: 18px; /* Increased from 16px */
+  line-height: 1.8;
+}
+
+.userDetails p {
+  margin: 8px 0;
+}
+
+.userDetails strong {
+  color: #2ecc71;
+}
+
+/* Edit button styling */
+.editButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 26px; /* Slightly increased for better balance */
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px; /* Increased from 16px */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.editButton:hover {
+  background-color: #27ae60;
+  transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .dashboardTitle {
+    font-size: 26px; /* Increased from 24px */
+  }
+
+  .userDetails {
+    font-size: 17px; /* Slightly larger for readability on small screens */
+  }
+
+  .editButton {
+    font-size: 16px; /* Increased from 14px */
+    padding: 12px 22px;
+  }
+}
