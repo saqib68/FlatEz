@@ -1,0 +1,126 @@
+/* Base styling */
+
+
+/* Flat Dashboard container */
+.flatDashboard {
+
+  width: 45%; /* Wider container to occupy more horizontal space */
+  max-width: 1200px; /* Limit maximum width for large screens */
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #D1E0E0; /* White for contrast */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+  margin: auto;
+  margin-top: 45rem;
+}
+
+/* Title styling */
+.flatDashboardTitle {
+  color: #34495E; /* Text color */
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #2ECC71; /* Highlight underline */
+  padding-bottom: 15px;
+}
+
+/* Flat details styling */
+.flatDetails {
+  margin-top: 20px;
+  text-align: left; /* Align details to the left for readability */
+}
+
+.flatDetails p {
+  color: #34495E; /* Text color */
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* Flatmate list styling */
+ol {
+  list-style-position: inside; /* Moves numbers closer to text */
+  padding-left: 0;
+  margin: 15px 0;
+  color: #34495E; /* Text color */
+  font-size: 16px;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #F8F9FA; /* Light background for list items */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for items */
+}
+
+li:hover
+{
+  background-color: #80f3b0;
+}
+
+/* Edit button styling */
+.editButton {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 30px;
+  background-color: #2ECC71; /* Button color */
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.editButton:hover {
+  background-color: #27AE60; /* Slightly darker on hover */
+  transform: translateY(-3px); /* Lift effect */
+}
+
+.editButton:active {
+  background-color: #1E8449; /* Darker when clicked */
+  transform: translateY(1px); /* Pressed effect */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .flatDashboard {
+    width: 95%; /* Adjust for smaller screens */
+    padding: 30px;
+  }
+
+  .flatDashboardTitle {
+    font-size: 24px;
+  }
+
+  .flatDetails p {
+    font-size: 16px;
+  }
+
+  .editButton {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flatDashboard {
+    padding: 20px;
+  }
+
+  .flatDashboardTitle {
+    font-size: 22px;
+  }
+
+  .flatDetails p {
+    font-size: 14px;
+  }
+
+  .editButton {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

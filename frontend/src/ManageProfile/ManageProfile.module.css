@@ -1,0 +1,98 @@
+/* Base colors */
+.bgBase {
+    background-color: #F8F9FA; /* Base background */
+  }
+  
+  .profileContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40%;
+  }
+  
+  .profileCard {
+    background-color: #ffffff; /* Card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 20px;
+  }
+  
+  .textCenter {
+    text-align: center;
+    color: #34495E;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    font-size: 16px;
+    color: #34495E;
+    margin-bottom: 5px;
+  }
+  
+  .formControl {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  
+  .formControl:focus {
+    border-color: #2ECC71; /* Input focus color */
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+    outline: none;
+  }
+  
+  .btnSuccess {
+    background-color: #2ECC71; /* Button color */
+    border-color: #2ECC71;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btnSuccess:hover {
+    background-color: #27AE60; /* Hover effect */
+    border-color: #27AE60;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .profileContainer {
+        padding: 20px 10px;
+    }
+  
+    .profileCard {
+        width: 90%;
+        max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profileCard {
+        width: 100%;
+        padding: 20px 15px;
+    }
+  
+    .formControl {
+        font-size: 12px;
+    }
+  
+    .btnSuccess {
+        font-size: 14px;
+        padding: 12px;
+    }
+  }
+  

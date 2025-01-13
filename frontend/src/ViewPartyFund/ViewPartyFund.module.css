@@ -1,0 +1,80 @@
+/* Container */
+.container {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa; /* Base color */
+  color: #34495e; /* Text color */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 30%;
+}
+
+/* Header */
+.header {
+  background-color: #2ecc71; /* Green header color */
+  color: #fff; /* White text */
+  width: 80%;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Main Section */
+.main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #2ecc71; /* Green header color */
+  color: #fff; /* White text */
+  font-size: 1.5rem;
+}
+
+.table td {
+  font-size: 1.5rem;
+}
+
+.table tr:hover {
+  background-color: rgba(46, 204, 113, 0.2); /* Light green hover effect */
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Loading and Error */
+.loading {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+}
+
+.error {
+  font-size: 1.5rem;
+  color: #e74c3c; /* Red for errors */
+  text-align: center;
+}

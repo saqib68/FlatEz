@@ -1,0 +1,73 @@
+/* General Card Styling */
+.signinCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 20px;
+  margin-top: 30rem;
+}
+
+/* Title Styling */
+.title {
+  font-size: 24px;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.formControl {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+.formControl:focus {
+  border-color: #2ecc71;
+  box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+  outline: none;
+}
+
+/* Button Styling */
+.btnSuccess {
+  background-color: #2ecc71;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.btnSuccess:hover {
+  background-color: #27ae60;
+}
+
+/* Alert Styling */
+.alert {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+/* Text Center */
+.textCenter {
+  text-align: center;
+}

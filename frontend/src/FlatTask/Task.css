@@ -1,0 +1,84 @@
+.task-list {
+  background-color: #D1E0E0;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 600px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+
+}
+
+.cont{
+  margin-left: 30%;
+}
+body{
+
+  color: #34495E;
+}
+.task-list-title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.task-list-empty {
+  color: #6c757d;
+  text-align: center;
+}
+
+.task-list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.task-name {
+  text-decoration: none;
+}
+
+.completed-task .task-name {
+  text-decoration: line-through;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 8px; /* Adds consistent spacing between buttons */
+}
+
+.task-button {
+  width: 32px;
+  height: 32px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.task-button.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding-bottom: 4%;
+}
+
+.task-button.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  padding: 5%;
+  margin-top: 8%;
+  translate: 0px -5px;
+}
